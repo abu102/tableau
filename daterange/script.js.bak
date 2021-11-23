@@ -1,4 +1,3 @@
-alert("Hello! I am an alert box!!");
 tableau.extensions.initializeAsync().then(() => {
   let dashboard = tableau.extensions.dashboardContent.dashboard;
   let selectedWorksheet = dashboard.worksheets.find(w => w.name === 'Trend');
